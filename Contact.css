@@ -1,0 +1,9 @@
+.one{
+    position: absolute;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 40px;
+}
+h2{
+    color: aqua;
+}
