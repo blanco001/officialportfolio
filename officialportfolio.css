@@ -27,6 +27,7 @@ body{
     z-index: 100;
     flex-direction: column;
     text-align: center;
+    justify-content: space-between;
 
     /* background-color: yellowgreen; */
 }
@@ -78,6 +79,10 @@ body{
     display: flex;
     align-items: center;
     padding: 60px 7% 0;
+}
+.home-content {
+    text-align: center;
+    padding: 20px;
 }
 .home .home-content {
     max-width: 440px;
@@ -215,14 +220,21 @@ body{
 .profession-box {
         flex-direction: column;
         align-items: center;
+        display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
 }
 .profession-container {
         flex-direction: column;
         align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 }
   .home-content {
         padding: 10px;
   }
+/* Mobile Styles */
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
