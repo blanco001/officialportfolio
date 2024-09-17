@@ -38,15 +38,35 @@ h2{
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--main-color);
+    /* background: var(--main-color); */
+    background-color: aqua;
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
-    color: var(--second-bg-color);
+    /* color: var(--second-bg-color); */
     initial-letter: 1rem;
     font-weight: 600;
     transition: .5s ease;
 }
 .btn:hover{
     box-shadow: none;
+}
+.heading{
+    position: relative;
+    align-items: center;
+    left: 400px;
+    font-size: 50px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
 }

@@ -46,9 +46,6 @@ body{
     font-weight: 500;
     margin-right: 35px;
      margin: 5px 0;
-     background: linear-gradient(to right, red ,green);
-    background-clip: text;
-    color: transparent;
  } 
 .navbar a.active::before {
     content: '';
@@ -359,8 +356,3 @@ body {
     background-clip: text;
     color: transparent;
 }
-
-
-    
-
-
